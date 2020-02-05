@@ -1,0 +1,105 @@
+.pad {
+    padding: 10px;
+}
+
+.carousel-inner {
+    height: 30rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.solutions {
+    padding: 30px;
+}
+
+.mission {
+    padding: 30px;
+    background-color: lightblue;
+}
+
+.mission-text {
+    padding: 20px;
+    color: white;
+}
+
+.testimonials {
+    margin-top: 5rem;
+    background-color: darkorange;
+}
+
+.testimonials-text {
+    padding: 30px;
+}
+
+.btn-wd {
+    width: 30rem;
+}
+
+.margin-left {
+    margin-left: 5rem;
+}
+
+.services {
+    margin-top: 5rem;
+}
+
+.hover:hover {
+    background-color: black;
+    transition: .5s ease;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hover:hover .image {
+    opacity: 0.3;
+}
+
+.hover:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: darkorange;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+    width: 20rem;
+}
+
+.row {
+    margin-top: 3rem;
+}
+
+.serv {
+    border: 1px solid gray;
+    margin: 0 3rem;
+}
+
+.serv:hover {
+    border: 1px solid black;
+}
