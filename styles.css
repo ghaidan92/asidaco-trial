@@ -91,7 +91,7 @@
     width: 20rem;
 }
 
-.row {
+.mar-top {
     margin-top: 3rem;
 }
 
@@ -102,4 +102,29 @@
 
 .serv:hover {
     border: 1px solid black;
+}
+
+.footer {
+    background-color: brown;
+    min-height: 18rem;
+}
+
+.contact,
+.address,
+.brands,
+.solutions {
+    margin-top: 3rem;
+}
+
+
+/* About Page */
+
+.bg-pic-about {
+    width: 100%;
+    height: 30rem;
+}
+
+.About-vid {
+    margin-top: 5rem;
+    background-color: darkorange;
 }
